@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Nurture</string>
+    <string name="stacklayoutmanager">softsolstudio.apps.selflovecards.activities.StackLayoutManager</string>
+</resources>
