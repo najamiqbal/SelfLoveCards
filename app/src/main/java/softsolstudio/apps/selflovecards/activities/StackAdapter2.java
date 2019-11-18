@@ -80,6 +80,7 @@ public class StackAdapter2 extends RecyclerView.Adapter<StackAdapter2.ViewHolder
         TextView index;
 
         public ViewHolder(View itemView) {
+            
             super(itemView);
             cover = (ImageView) itemView.findViewById(R.id.cover);
             index = (TextView) itemView.findViewById(R.id.index);
