@@ -92,7 +92,6 @@ public class StackAdapter2 extends RecyclerView.Adapter<StackAdapter2.ViewHolder
                         Intent intent=new Intent(context,BuyActivity.class);
                         context.startActivity(intent);
                     }else {
-
                         final int min = 1;
                         final int max = 11;
                         final int random = new Random().nextInt((max - min) + 1) + min;
