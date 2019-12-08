@@ -24,10 +24,10 @@
         android:layout_width="wrap_content"
         android:text="Unlock"
         android:textAllCaps="true"
-        android:textColor="#FFF"
-        android:textSize="20sp"
+        android:textColor="#000"
+        android:textSize="24sp"
         android:padding="16dp"
-        android:background="@color/cardview_dark_background"
+        android:background="@drawable/btn_background"
         android:layout_height="wrap_content">
     </Button>
 </RelativeLayout>

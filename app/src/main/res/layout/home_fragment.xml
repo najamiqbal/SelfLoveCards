@@ -11,98 +11,115 @@
         android:id="@+id/close_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Close"
-        android:textSize="14sp"
-        android:padding="10dp"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:drawablePadding="6dp"
         android:drawableLeft="@drawable/ic_close_black"
-        />
+        android:drawablePadding="6dp"
+        android:padding="10dp"
+        android:text="Close"
+        android:textColor="#000"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
     <TextView
-        android:id="@+id/tv1"
-        android:layout_above="@id/tv2"
+        android:id="@+id/cstudio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to Nurture!"
-        android:textSize="28sp"
-        android:textAlignment="center"
-        android:padding="10dp"
-        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
         android:fontFamily="@font/blackjack"
-        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="CStudios"
+        android:textAlignment="center"
         android:textColor="#000"
-        />
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cstudio"
+        android:fontFamily="@font/blackjack"
+        android:padding="10dp"
+        android:text="Welcome to Nurture!"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/tv2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Choose a card to show yourself some love!"
-        android:textSize="22sp"
-        android:textAlignment="center"
-        android:padding="10dp"
-        android:layout_centerInParent="true"
+        android:layout_below="@id/tv1"
         android:fontFamily="@font/blackjack"
-        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="Tap the Mandela below to show yourself some love!"
+        android:textAlignment="center"
         android:textColor="#000"
-        />
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
     <LinearLayout
-        android:layout_above="@id/aboutlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_above="@id/aboutlayout"
+        android:layout_below="@id/tv2"
+        android:id="@+id/readings_btn"
         android:orientation="horizontal">
-        <Button
+
+    <!--    <Button
             android:id="@+id/readings_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Draw"
-            android:textStyle="bold"
             android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_dark_background"
+            android:text="Draw"
             android:textAllCaps="true"
             android:textColor="#FFF"
-            android:background="@color/cardview_dark_background"
-            android:layout_weight="1"/>
+            android:textStyle="bold" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aboutlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
         <Button
             android:id="@+id/browse_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
             android:text="Browse"
-            android:textStyle="bold"
-            android:layout_margin="15dp"
-            android:background="@color/cardview_dark_background"
             android:textAllCaps="true"
-            android:textColor="#FFF"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:id="@+id/aboutlayout"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/draw_btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Full version"
-            android:textStyle="bold"
-            android:layout_margin="15dp"
-            android:textAllCaps="true"
-            android:textColor="#FFF"
-            android:background="@color/cardview_dark_background"
-            android:layout_weight="1"/>
+            android:textColor="#000"
+            android:textStyle="bold" />
         <Button
             android:id="@+id/about_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
             android:text="About"
-            android:textStyle="bold"
-            android:layout_margin="15dp"
-            android:background="@color/cardview_dark_background"
             android:textAllCaps="true"
-            android:textColor="#FFF"
-            android:layout_weight="1"/>
-
+            android:textColor="#000"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/draw_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            android:text="Full version"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textStyle="bold" />
     </LinearLayout>
 </RelativeLayout>

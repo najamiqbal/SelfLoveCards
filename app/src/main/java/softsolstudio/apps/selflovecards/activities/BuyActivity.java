@@ -30,7 +30,7 @@ import softsolstudio.apps.selflovecards.R;
 
 public class BuyActivity extends AppCompatActivity implements PurchasesUpdatedListener {
     Button button_buy;
-    private final String TOKEN5_SKU = "full_app";
+    private final String TOKEN5_SKU = "android.test.purchased";
     ProgressDialog dialog;
     private final int TOKEN5 = 5;
     String flag="paid";
@@ -180,16 +180,16 @@ public class BuyActivity extends AppCompatActivity implements PurchasesUpdatedLi
     }
 
     private void startBilling(int TOKEN5) {
-        Toast.makeText(this, "To"+TOKEN5, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "To"+TOKEN5, Toast.LENGTH_SHORT).show();
         if (token5SkuDetails != null) {
             BillingFlowParams new1FlowParams = BillingFlowParams.newBuilder()
                     .setSkuDetails(token5SkuDetails)
                     .build();
             billingClient.launchBillingFlow(this, new1FlowParams);
-            Toast.makeText(this, "Token"+TOKEN5, Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Token"+TOKEN5, Toast.LENGTH_SHORT).show();
 
         } else {
-            Toast.makeText(this, String.valueOf(token5SkuDetails), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, String.valueOf(token5SkuDetails), Toast.LENGTH_SHORT).show();
         }
     }
     private void complain(String message) {

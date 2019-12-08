@@ -102,7 +102,7 @@ public class StackAdapter extends RecyclerView.Adapter<StackAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Glide.with(context).load(imageUrls.get(position)).into(holder.cover);
-        holder.index.setText(datas.get(holder.getAdapterPosition()));
+        //holder.index.setText(datas.get(holder.getAdapterPosition()));
     }
 
     @Override
@@ -122,10 +122,9 @@ public class StackAdapter extends RecyclerView.Adapter<StackAdapter.ViewHolder> 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(context.getApplicationContext(), String.valueOf(getAdapterPosition()), Toast.LENGTH_SHORT)
-                            .show();
+                    //Toast.makeText(context.getApplicationContext(), String.valueOf(getAdapterPosition()), Toast.LENGTH_SHORT).show();
                     final int min = 1;
-                    final int max = 11;
+                    final int max = 66;
                     final int random = new Random().nextInt((max - min) + 1) + min;
                     AppCompatActivity activity = (AppCompatActivity) v.getContext();
                     Fragment myFragment = new CardDetailFragment();

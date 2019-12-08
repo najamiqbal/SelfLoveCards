@@ -66,7 +66,7 @@ public class StackAdapter2 extends RecyclerView.Adapter<StackAdapter2.ViewHolder
     @Override
     public void onBindViewHolder(StackAdapter2.ViewHolder holder, int position) {
         Glide.with(context).load(imageUrls.get(position)).into(holder.cover);
-        holder.index.setText(datas.get(holder.getAdapterPosition()));
+        //holder.index.setText(datas.get(holder.getAdapterPosition()));
     }
 
     @Override
@@ -80,15 +80,14 @@ public class StackAdapter2 extends RecyclerView.Adapter<StackAdapter2.ViewHolder
         TextView index;
 
         public ViewHolder(View itemView) {
-            
+
             super(itemView);
             cover = (ImageView) itemView.findViewById(R.id.cover);
             index = (TextView) itemView.findViewById(R.id.index);
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Toast.makeText(context.getApplicationContext(), String.valueOf(getAdapterPosition()), Toast.LENGTH_SHORT)
-                            .show();
+                    //Toast.makeText(context.getApplicationContext(), String.valueOf(getAdapterPosition()), Toast.LENGTH_SHORT).show();
                     if (String.valueOf(getAdapterPosition()).equalsIgnoreCase("11")){
                         Intent intent=new Intent(context,BuyActivity.class);
                         context.startActivity(intent);

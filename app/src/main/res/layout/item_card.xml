@@ -28,7 +28,7 @@
             android:layout_width="18dp"
             android:gravity="center"
             android:layout_gravity="right|top"
-            android:background="@drawable/circle_shape"
+            android:background="@null"
             android:layout_margin="10dp"
             android:layout_height="18dp" />
     </androidx.cardview.widget.CardView>

@@ -5,7 +5,7 @@ public class constants {
     public static String termsAndUse = " <h3><b>About</b>\n" +
             "        </h3>\n" +
             "        <p>\n" +
-            "  “Nurture by CStudios is all about you.  This is YOUR time! Your life is full and busy. Sometimes, it seems like there's not enough time in the day to properly nurture or pamper yourself.  This oracle deck provides fun and easy ideas to enhance the wow in your life.  Remember, self-care is not selfish. It's a necessity!” .\n" +
+            "Nurture by CStudios is all about you.  This is YOUR time! Your life is full and busy. Sometimes, it seems like there's not enough time in the day to properly nurture or pamper yourself.  This oracle deck provides fun and easy ideas to enhance the wow in your life.  Remember, self-care is not selfish. It's a necessity!\n" +
             "            <br>\n" +
             "            <br>\n" +
             "        </p>\n" +

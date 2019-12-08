@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -23,7 +24,8 @@ import softsolstudio.apps.selflovecards.activities.SharedPrefManager;
 public class HomeFragment extends Fragment implements View.OnClickListener{
     View view;
     TextView close_tv;
-    Button browse_btn,readings_btn,about_btn,draw_btn;
+    Button browse_btn,about_btn,draw_btn;
+    LinearLayout readings_btn;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -50,7 +52,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener{
         switch (view.getId()){
             case R.id.readings_btn:
                 final String subscriptionPlan = SharedPrefManager.getString(getActivity(), SharedPrefManager.PREF_TAKEN_SUBSCRIPTION_PLAN, "");
-                Toast.makeText(getContext(), "plan is "+subscriptionPlan, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(), "plan is "+subscriptionPlan, Toast.LENGTH_SHORT).show();
                 final int min = 1;
                 if (subscriptionPlan.equalsIgnoreCase("paid")){
                     final int max = 66;

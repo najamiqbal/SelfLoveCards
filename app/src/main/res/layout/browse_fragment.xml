@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="#000"
     android:orientation="vertical">
 <LinearLayout
     android:id="@+id/toplayout"
@@ -14,12 +14,10 @@
 </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview1"
-        android:layout_below="@id/toplayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:overScrollMode="never"
-        android:layout_above="@+id/bottomwipe"
         app:layoutManager="softsolstudio.apps.selflovecards.activities.StackLayoutManager"
         tools:listitem="@layout/item_card" />
 
@@ -34,7 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="Drag the Cards horizintally to browse them. Tap a card to read it."
+            android:text="Drag the Cards horizontally to browse them. Tap a card to read it."
             android:textAlignment="center"
             android:textColor="#FFF"
             android:textSize="20sp"

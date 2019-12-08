@@ -42,13 +42,14 @@ public class browseFragment extends Fragment {
     }
 
     public void resetRight() {
+        final String subscriptionPla = SharedPrefManager.getString(getActivity(), SharedPrefManager.PREF_TAKEN_SUBSCRIPTION_PLAN, "");
         List<String> datas = new ArrayList<>();
-        if (flag.equalsIgnoreCase("free")){
-            for (int i = 0; i < 12; i++) {
+        if (subscriptionPla.equalsIgnoreCase("paid")){
+            for (int i = 0; i < 66; i++) {
                 datas.add(String.valueOf(i));
             }
         }else {
-            for (int i = 0; i < 66; i++) {
+            for (int i = 0; i < 12; i++) {
                 datas.add(String.valueOf(i));
             }
         }
@@ -64,7 +65,7 @@ public class browseFragment extends Fragment {
         config.align = Align.RIGHT;
         recyclerView1.setLayoutManager(new StackLayoutManager(config));
         final String subscriptionPlan = SharedPrefManager.getString(getActivity(), SharedPrefManager.PREF_TAKEN_SUBSCRIPTION_PLAN, "");
-        Toast.makeText(getContext(), "plan is "+subscriptionPlan, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getContext(), "plan is "+subscriptionPlan, Toast.LENGTH_SHORT).show();
         if (subscriptionPlan.equalsIgnoreCase("paid")){
             recyclerView1.setAdapter(new StackAdapter(datas));
         }else {
