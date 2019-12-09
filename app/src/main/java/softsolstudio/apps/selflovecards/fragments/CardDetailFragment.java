@@ -301,83 +301,83 @@ public class  CardDetailFragment extends Fragment {
                break;
            case 50:
                linearLayout_bg.setBackgroundResource(R.drawable.sing);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Pamper You");
+               tv_card_info.setText("Days crammed with appointments and work seem to leave little time for taking time for yourself. Well, the time is now. Book a massage, schedule a mani/pedi or have tea at a cute cafe. A simple DIY treat: draw yourself a bath, light some candles and put on your favorite music.");
                break;
            case 51:
                linearLayout_bg.setBackgroundResource(R.drawable.caress);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Sing You");
+               tv_card_info.setText("Music is a powerful and universal language. It celebrates when we are happy and comforts us when we are feeling blue. What's your favorite tune? Belt it out in the shower or turn up the volume in your car! Let the music play!");
                break;
            case 52:
                linearLayout_bg.setBackgroundResource(R.drawable.reveal);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Outside You");
+               tv_card_info.setText("Nature knows best. Mother Nature is a powerful healer. The sun supports the production of Vitamin D. Fresh air rejuvenates our senses and walking on grass helps us feel grounded. Step outside your box (read: house, car, office) and connect with nature.");
                break;
            case 53:
                linearLayout_bg.setBackgroundResource(R.drawable.sweat);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Yes You");
+               tv_card_info.setText("Say Yes….to You. When was the last time you said yes to you? Nurturing your own mind, body, and spirit gives you more energy to contribute to the lives of others. Practice saying yes to you. Yes, I will read a favorite poem daily. Yes, I will take a walk and enjoy the sun. Yes, I will take time to pray & meditate. Self-care is not selfish. It's a necessity of life.");
                break;
            case 54:
                linearLayout_bg.setBackgroundResource(R.drawable.befriend);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Know You");
+               tv_card_info.setText("How well do you know yourself? Funny....we will invest in getting to know all about other people in our lives, but we often overlook taking the time to get to know our authentic selves. Pursue getting to know yourself with the same fervor you would a new lover. Enjoy exploring and experimenting. What really makes you smile? What feeds your soul? What's a perfect day look like for you? You'll fall in love for sure!");
                break;
            case 55:
                linearLayout_bg.setBackgroundResource(R.drawable.thankyou);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Balance You");
+               tv_card_info.setText("Keeping your hormones balanced is a vital part of self-care. Oh, the monthly rollercoaster ride! Hormones regulate everything from your weight to your moods to your libido. If you are noticing, huge shifts and swings in these areas, consider getting your hormone levels checked. Incorporate healthy foods and lifestyle choices (i.e. getting enough sleep) to support your hormonal health.");
                break;
            case 56:
                linearLayout_bg.setBackgroundResource(R.drawable.balance);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Embrace You");
+               tv_card_info.setText("When was the last time you had a hug? Not just the quick pat on the back kind. The real deal…a firm embrace. Research shows that hugs can be healing. Nurturing touch promotes trust and overall well-being. Hugs can elevate, relax and comfort you whether you give them to yourself or share them with others, what are you waiting for? Hug yourself. Cross your arms over your chest. Embrace your shoulders and squeeze!");
                break;
            case 57:
                linearLayout_bg.setBackgroundResource(R.drawable.ask);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Caress You");
+               tv_card_info.setText("Love the skin you’re in! You’ve heard this before but how well do you really know your skin? As your largest organ, skin protects you from the elements, senses your emotions and projects your beauty. Summer is the perfect time to get reacquainted with the skin you’re in. Turn your daily moisturizing task into a sensual ritual. Slowly apply your favorite lotion/oil/cream. Fully experience the sensations. Be sure to show a little extra love to those areas that don’t usually receive a lot of attention.");
                break;
            case 58:
                linearLayout_bg.setBackgroundResource(R.drawable.unplug);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Shock You");
+               tv_card_info.setText("Cold showers can improve your life. Keep reading. No longer just an anecdotal prescription for adjusting the libido, research has shown that taking cold showers can boost immunity, perk up your mood and stimulate circulation. Go ahead and shock yourself. End your morning shower with a 20-second cold blast. You might not need your morning coffee after all!");
                break;
            case 59:
                linearLayout_bg.setBackgroundResource(R.drawable.treat);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Treat You");
+               tv_card_info.setText("When was the last time you treated yourself to your favorite thing? Love swimming but haven’t seen the pool lately? Put on your bathing suit and cannonball into your nearest pool. Like foot massages? Splurge on a pampering session for your soles. Life is full. Take a moment to treat yourself to something good.");
                break;
            case 60:
                linearLayout_bg.setBackgroundResource(R.drawable.stimulate);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Do You");
+               tv_card_info.setText("Pleasure is a vital part of self-care. Whether solo or with a partner, exploring what turns you on is empowering. Set the scene for your ultimate pleasure fest. Candles, soft music, warm bath. Add some toys. Leather, feathers, vibrator, silk. Whatever makes you quiver, giggle, gasp or tingle.");
                break;
            case 61:
                linearLayout_bg.setBackgroundResource(R.drawable.visualize);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Adorn You");
+               tv_card_info.setText("Lingerie is a way to creatively express your sensuality…. just for you. Check your underwear. Can’t remember the last time you updated this often-overlooked part of your wardrobe? Does comfy cotton dominate the ranks? Add some lace and silk. If lace and silk aren’t your thing, experiment with playful patterns or captivating colors. Explore endless possibilities.");
                break;
            case 62:
                linearLayout_bg.setBackgroundResource(R.drawable.yes);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Engage You");
+               tv_card_info.setText("Sitting hunched over. Shallow breathing. Backaches. These are potential signs that your psoas muscles (pronounced so-as) are out of balance. Considered the most important muscles in your body, the psoas is key to stabilizing the spine. When overstretched or too tight, the psoas can trigger issues from knee pain to menstrual cramps. When properly engaged, these muscles can improve your alignment and enhance your overall well-being. Show your psoas some love.");
                break;
            case 63:
                linearLayout_bg.setBackgroundResource(R.drawable.tickle);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Love You");
+               tv_card_info.setText("Ever wonder what it would be like to love yourself completely? Take inventory of all the ways you show love for yourself. Do you eat foods that enliven you? Does your workout empower you? How are you feeding your soul? Now is the time to make changes to let go of things that no longer work for you and replace them with more loving self-care options. Remember: Self-care isn’t selfish. It’s necessary.");
                break;
            case 64:
                linearLayout_bg.setBackgroundResource(R.drawable.adventure);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Energize You");
+               tv_card_info.setText("You know the feeling. You wake up groggy and sluggish even after a full night's sleep you. What can help? Add a couple of cold water blasts to your morning shower. Swap your coffee for a green juice. Take a 10-minute brisk walk when you feel the afternoon slump coming on.");
                break;
            case 65:
                linearLayout_bg.setBackgroundResource (R.drawable.calmyou);
-               tv_title.setText("");
-               tv_card_info.setText("");
+               tv_title.setText("Cool You");
+               tv_card_info.setText("As temperatures heat up, here are some fun ideas for staying cool. Run through the sprinklers. Keep a pitcher of basil water in the fridge. Stock up on popsicles. Take a cool shower. Sleep nude.");
                break;
        }
     }
